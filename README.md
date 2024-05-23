@@ -100,5 +100,3 @@ blog-website/
 Feel free to fork this repository and contribute by submitting a pull request. For major changes, please open an issue first to discuss what you would like to change.
 
 ---
-
-Feel free to customize this README further to better fit your specific project details and needs.
