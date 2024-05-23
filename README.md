@@ -41,7 +41,7 @@ Welcome to the Code Blog Website project! This application allows users to creat
 
 4. **Open your browser and navigate to:**
    ```
-   http://localhost:3000
+   http://localhost:4000
    ```
 
 ## Project Structure
