@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Code Blogs</title>
+    <link rel="stylesheet" href="/css/styles.css" />
+  </head>
+  <body>
+    <h1>Code Blogs</h1>
+    <div class="ctn">
+      <div id="new-post">
+        <a href="/new">New Post</a>
+      </div>
+    </div>
+    <div id="posts">
+      <% posts.forEach(post => { %>
+      <div class="post">
+        <h2><a href="/post/<%= post.id %>"><%= post.title %></a></h2>
+        <p><%= post.content %></p>
+        <small><%= post.date %></small>
+        <form
+          action="/delete/<%= post.id %>"
+          method="POST"
+          style="display: inline"
+        >
+          <button type="submit">Delete</button>
+        </form>
+      </div>
+      <% }) %>
+    </div>
+  </body>
+</html>

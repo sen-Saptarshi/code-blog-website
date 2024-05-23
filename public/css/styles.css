@@ -1,0 +1,147 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #8f8f8f;
+  color: #000000;
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+  color: #000000;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #2980b9;
+}
+
+.ctn {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+#new-post {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  margin: 10px;
+  background-color: #ffffff;
+  width: 30%;
+  border: 3px solid black;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: all 0.2s ease;
+}
+
+#new-post:hover {
+  transform: translateY(-2px);
+}
+
+/* Container Styles */
+#posts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.post {
+  width: 60%;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 10px 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.post:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Form Styles */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+label,
+input,
+textarea {
+  width: 60%;
+  margin: 5px 0;
+}
+
+input,
+textarea {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  background-color: #000000;
+  color: white;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+button:hover {
+  background-color: #ffffff;
+  color: #000000;
+  transform: translateY(-2px);
+}
+
+/* Live Preview Styles */
+#preview {
+  width: 60%;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#preview-title {
+  margin: 0;
+  font-size: 24px;
+  color: #444;
+}
+
+#preview-content {
+  margin: 10px 0 0;
+  color: #666;
+}
+
+/* Post Page Styles */
+.post-page {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.post-page p {
+  line-height: 1.6;
+}
